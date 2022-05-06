@@ -11,3 +11,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container{
+  /* margin: 50px auto;
+    width: 67%; */
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border: 1px solid rgb(244, 238, 238);
+    padding: 40px;
+    box-shadow: 0px 0px 1px 0.5px  rgb(211, 209, 209);
+    border-radius: 5px;
+}
+
+
+form{
+  width:100%;
+}
+
+
+input{
+  width:95%;
+  padding:10px;
+}
+
+textarea{
+  width:95%;
+  padding:10px;
+  /* resize:none; */
+}
+
+button{
+  padding:10px;
+  border-radius: 5px;
+  width:100%;
+  margin-top:20px;
+  background-color: rgb(237, 23, 101);
+  color: white;
+}
+
+
+
+
+
